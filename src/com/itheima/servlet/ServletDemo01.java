@@ -17,7 +17,7 @@ import java.io.IOException;
 public class ServletDemo01  implements Servlet {
     @Override
     public void init(ServletConfig servletConfig) throws ServletException {
-        System.out.println("servlet demo01被创建出来了");
+        System.out.println("servlet demo01");
     }
 
     @Override
@@ -27,7 +27,7 @@ public class ServletDemo01  implements Servlet {
 
     @Override
     public void service(ServletRequest servletRequest, ServletResponse servletResponse) throws ServletException, IOException {
-        System.out.println("我一定要快乐呀");
+        System.out.println("我一定要");
     }
 
     @Override
